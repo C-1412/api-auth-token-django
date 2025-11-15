@@ -1,0 +1,79 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# Environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database (excepto si necesitas migraciones)
+*.db
+*.sqlite3
+
+# PostgreSQL (opcional, si no quieres datos de desarrollo)
+/pg_data/
+
+# PyCharm
+.idea/
+
+# Virtual environment
+venv/
+venv*/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.coverage*
+
+# Testing
+.pytest_cache/
+
+# Environment variables
+.env
+.env.local
+.env.prod
+.venv/
+
+# Logs
+logs/
+*.log
+
+# Backup files
+backup/
+*.backup
+*.bak
+
+# Temporary files
+temp/
+tmp/
+*.tmp
